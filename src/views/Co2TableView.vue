@@ -15,6 +15,14 @@
         })
         companiesdata.value = companies.value
   })
+
+  function sumMtCO2year(tablerows) {
+      let sum = 0
+      tablerows.forEach(data => {
+      sum = sum + parseFloat(data.MtCO2year)
+    })
+    return sum;
+  }
 </script>
 
 <script>
@@ -23,8 +31,8 @@ export default {
     data: () => ({
       filters: {
         Land: { value: '', keys: ['Land'] },
-        Age: { value: '', keys: ['Age'] },
-        Email: { value: '', keys: ['Email'] },
+        Rang: { value: '', keys: ['Rang'] },
+        Unternehmen: { value: '', keys: ['Unternehmen'] },
         MtCO2year: { value: '', keys: ['MtCO2year'] }
       }
     }),
@@ -39,8 +47,10 @@ export default {
 <template>
     <main>
       <h1>CO2 Table view</h1>
-        <label>Filter by Name:</label>
+        <label>Filtern nach Land:</label>
         <input v-model="filters.Land.value"/>
+        <label>Filtern nach Unternehmen</label>
+        <input v-model="filters.Unternehmen.value"/>
         <VTable 
         :data="companiesdata"
         :filters="filters"
@@ -57,6 +67,9 @@ export default {
               <td>{{ row.Rang }}</td>
               <td>{{ row.Unternehmen }}</td>
               <td>{{ row.MtCO2year }}</td>
+            </tr>
+            <tr>
+              <td>Total amount: {{ sumMtCO2year(rows) }}</td>
             </tr>
           </template>
         </VTable>
