@@ -1,7 +1,9 @@
 <template>
-  <HelloWorld />
+    <Co2Table />
+  <LocalNavigationHome />
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import Co2Table from '@/components/Co2Table.vue'
+  import LocalNavigationHome from '@/components/LocalNavigationHome.vue';
 </script>

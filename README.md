@@ -55,3 +55,16 @@ pnpm lint
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+
+
+# IPWA01-01-CO2-Footprint
+
+# Install fake REST API to recieve companies data
+npm install -g json-server
+# Install Vue CLI tools
+npm install -g @vue/cli @vue/cli-service-global
+
+# Start fake REST API server with CMD: 
+json-server --watch db.json
+# Start react app with Powershell
+npm run dev

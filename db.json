@@ -1,0 +1,304 @@
+{
+  "companies": [
+    {
+      "Rang": 1,
+      "Unternehmen": "China (Coal)",
+      "MtCO2year": "1283,3",
+      "Land": "China"
+    },
+    {
+      "Rang": 2,
+      "Unternehmen": "Saudi Arabian Oil Company (Aramco)",
+      "MtCO2year": "403,0",
+      "Land": "Saudi Arabian"
+    },
+    {
+      "Rang": 3,
+      "Unternehmen": "Gazprom OAO",
+      "MtCO2year": "350,3",
+      "Land": "Russia"
+    },
+    {
+      "Rang": 4,
+      "Unternehmen": "National Iranian Oil Co",
+      "MtCO2year": "204,3",
+      "Land": "Iran"
+    },
+    {
+      "Rang": 5,
+      "Unternehmen": "ExxonMobil Corp",
+      "MtCO2year": "177,4",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 6,
+      "Unternehmen": "Coal India",
+      "MtCO2year": "167,6",
+      "Land": "India"
+    },
+    {
+      "Rang": 7,
+      "Unternehmen": "Petroleos Mexicanos (Pemex)",
+      "MtCO2year": "167,5",
+      "Land": "Mexico"
+    },
+    {
+      "Rang": 8,
+      "Unternehmen": "Russia (Coal)",
+      "MtCO2year": "166,7",
+      "Land": "Russia"
+    },
+    {
+      "Rang": 9,
+      "Unternehmen": "Royal Dutch Shell PLC",
+      "MtCO2year": "149,6",
+      "Land": "United Kingdom"
+    },
+    {
+      "Rang": 10,
+      "Unternehmen": "China National Petroleum Corp (CNPC)",
+      "MtCO2year": "139,8",
+      "Land": "China"
+    },
+    {
+      "Rang": 11,
+      "Unternehmen": "BP PLC",
+      "MtCO2year": "137,1",
+      "Land": "United Kingdom"
+    },
+    {
+      "Rang": 12,
+      "Unternehmen": "Chevron Corp",
+      "MtCO2year": "117,4",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 13,
+      "Unternehmen": "Petroleos de Venezuela SA (PDVSA)",
+      "MtCO2year": "110,2",
+      "Land": "Venezuela"
+    },
+    {
+      "Rang": 14,
+      "Unternehmen": "Abu Dhabi National Oil Co",
+      "MtCO2year": "107,5",
+      "Land": "United Arab Emirates"
+    },
+    {
+      "Rang": 15,
+      "Unternehmen": "Poland Coal",
+      "MtCO2year": "103,9",
+      "Land": "Poland"
+    },
+    {
+      "Rang": 16,
+      "Unternehmen": "Peabody Energy Corp",
+      "MtCO2year": "103,0",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 17,
+      "Unternehmen": "Sonatrach SPA",
+      "MtCO2year": "89,6",
+      "Land": "Africa"
+    },
+    {
+      "Rang": 18,
+      "Unternehmen": "Kuwait Petroleum Corp",
+      "MtCO2year": "89,6",
+      "Land": "Kuwait"
+    },
+    {
+      "Rang": 19,
+      "Unternehmen": "Total SA",
+      "MtCO2year": "85,1",
+      "Land": "France"
+    },
+    {
+      "Rang": 20,
+      "Unternehmen": "BHP Billiton Ltd",
+      "MtCO2year": "81,5",
+      "Land": "Australien"
+    },
+    {
+      "Rang": 21,
+      "Unternehmen": "ConocoPhillips",
+      "MtCO2year": "81,5",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 22,
+      "Unternehmen": "Petroleo Brasileiro SA (Petrobras)",
+      "MtCO2year": "69,0",
+      "Land": "Brazil"
+    },
+    {
+      "Rang": 23,
+      "Unternehmen": "Lukoil OAO",
+      "MtCO2year": "67,2",
+      "Land": "Russia"
+    },
+    {
+      "Rang": 24,
+      "Unternehmen": "Rio Tinto",
+      "MtCO2year": "67,3",
+      "Land": "Spain"
+    },
+    {
+      "Rang": 25,
+      "Unternehmen": "Nigerian National Petroleum Corp",
+      "MtCO2year": "64,5",
+      "Land": "Nigeria"
+    },
+    {
+      "Rang": 26,
+      "Unternehmen": "Petroliam Nasional Berhad (Petronas)",
+      "MtCO2year": "61,8",
+      "Land": "Malaysia"
+    },
+    {
+      "Rang": 27,
+      "Unternehmen": "Rosneft OAO",
+      "MtCO2year": "58,2",
+      "Land": "Russia"
+    },
+    {
+      "Rang": 28,
+      "Unternehmen": "Arch Coal Inc",
+      "MtCO2year": "56,5",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 29,
+      "Unternehmen": "Iraq National Oil Co",
+      "MtCO2year": "53,8",
+      "Land": "Iraq"
+    },
+    {
+      "Rang": 30,
+      "Unternehmen": "Eni SPA",
+      "MtCO2year": "52,9",
+      "Land": "Italy"
+    },
+    {
+      "Rang": 31,
+      "Unternehmen": "Anglo American",
+      "MtCO2year": "52,9",
+      "Land": "United Kingdom"
+    },
+    {
+      "Rang": 32,
+      "Unternehmen": "Surgutneftegas OAO",
+      "MtCO2year": "51,1",
+      "Land": "Russia"
+    },
+    {
+      "Rang": 33,
+      "Unternehmen": "Alpha Natural Resources Inc",
+      "MtCO2year": "48,4",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 34,
+      "Unternehmen": "Qatar Petroleum Corp",
+      "MtCO2year": "48,4",
+      "Land": "Qatar"
+    },
+    {
+      "Rang": 35,
+      "Unternehmen": "PT Pertamina",
+      "MtCO2year": "48,3",
+      "Land": "Indonesien"
+    },
+    {
+      "Rang": 36,
+      "Unternehmen": "Kazakhstan Coal",
+      "MtCO2year": "47,5",
+      "Land": "Kazakhstan"
+    },
+    {
+      "Rang": 37,
+      "Unternehmen": "Statoil ASA",
+      "MtCO2year": "46,6",
+      "Land": "Norwegen"
+    },
+    {
+      "Rang": 38,
+      "Unternehmen": "National Oil Corporation of Libya",
+      "MtCO2year": "44,8",
+      "Land": "Libya"
+    },
+    {
+      "Rang": 39,
+      "Unternehmen": "Consol Energy Inc",
+      "MtCO2year": "44,7",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 40,
+      "Unternehmen": "Ukraine Coal",
+      "MtCO2year": "43,9",
+      "Land": "Ukraine"
+    },
+    {
+      "Rang": 41,
+      "Unternehmen": "RWE AG",
+      "MtCO2year": "42,1",
+      "Land": "Germany"
+    },
+    {
+      "Rang": 42,
+      "Unternehmen": "Oil & Natural Gas Corp Ltd",
+      "MtCO2year": "35,8",
+      "Land": "India"
+    },
+    {
+      "Rang": 43,
+      "Unternehmen": "Glencore PLC",
+      "MtCO2year": "34,0",
+      "Land": "Switzerland"
+    },
+    {
+      "Rang": 44,
+      "Unternehmen": "TurkmenGaz",
+      "MtCO2year": "32,3",
+      "Land": "Turkmenistan"
+    },
+    {
+      "Rang": 45,
+      "Unternehmen": "Sasol Ltd",
+      "MtCO2year": "31,4",
+      "Land": "South Africa"
+    },
+    {
+      "Rang": 46,
+      "Unternehmen": "Repsol SA",
+      "MtCO2year": "29,6",
+      "Land": "Spain"
+    },
+    {
+      "Rang": 47,
+      "Unternehmen": "Anadarko Petroleum Corp",
+      "MtCO2year": "29,5",
+      "Land": "United States of America"
+    },
+    {
+      "Rang": 48,
+      "Unternehmen": "Egyptian General Petroleum Corp",
+      "MtCO2year": "27,8",
+      "Land": "Egyptian"
+    },
+    {
+      "Rang": 49,
+      "Unternehmen": "Petroleum Development Oman LLC",
+      "MtCO2year": "27,8",
+      "Land": "Oman"
+    },
+    {
+      "Rang": 50,
+      "Unternehmen": "Czech Republic Coal",
+      "MtCO2year": "26,8",
+      "Land": "Czech Republic"
+    }
+  ]
+}
