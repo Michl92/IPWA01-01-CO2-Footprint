@@ -1,7 +1,7 @@
 <template>
   <nav style="right: 0px; z-index: 1008; transform: translateX(0%); position: fixed; height: calc((100% - 64px) - 0px); top: 64px; bottom: 0px; width: 300px;">
     <v-card>
-      <v-layout>
+      <v-app>
         <v-navigation-drawer
           permanent
           location="right"          
@@ -19,7 +19,7 @@
           </v-list>
         </v-navigation-drawer>
         <v-main></v-main>
-      </v-layout>
+      </v-app>
     </v-card>
   </nav>
 </template>

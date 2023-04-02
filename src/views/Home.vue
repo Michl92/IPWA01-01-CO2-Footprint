@@ -1,6 +1,6 @@
-<template>
-    <Co2Table />
+<template>    
   <LocalNavigationHome />
+  <Co2Table />
 </template>
 
 <script setup>

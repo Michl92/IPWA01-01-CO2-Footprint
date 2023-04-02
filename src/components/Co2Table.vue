@@ -1,5 +1,5 @@
 <template>
-  <v-container class="fill-height">
+  <v-container class="fill-height"> <!-- ToDo: Table will be overlapped by navigation bar -->
     <v-responsive class="d-flex align-center text-center fill-height">
       <v-card-title>
         Co2 Table
@@ -20,17 +20,7 @@
           item-value="name"
           class="elevation-1"
         >
-        <!-- summieren der werte funktioniert noch nicht -->
-        <template v-slot:item.MtCO2year="{ item }">
-          <v-chip >
-            {{ getColor(item.raw.MtCO2year) }}
-          </v-chip>
-        </template>
-
-
       </v-data-table>
-
-      <h1>asdf</h1>
     </v-responsive>
   </v-container>
 </template>
@@ -63,22 +53,4 @@ import axios from 'axios'
 
 
 </script>
-<script setup>
 
-
-  function sumMtCO2year(tablerows) {
-      let sum = 0
-      tablerows.forEach(data => {
-      sum = sum + parseFloat(data.MtCO2year)
-    })
-    return sum;
-  }
-
-  function getColor (value) {
-    let sum = 0
-        sum = sum + parseFloat(value)
-        console.log(sum)
-        return sum;
-    }
-    
-</script>

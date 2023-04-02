@@ -1,6 +1,6 @@
 <template>
     <nav style="left: 0px; z-index: 1008; transform: translateX(0%); position: fixed; height: calc((100% - 64px) - 0px); top: 64px; bottom: 0px; width: 300px;">
-        <v-card>
+
             <v-layout>
                 <v-navigation-drawer
                 class="bg-blue"
@@ -21,8 +21,8 @@
                     </div>
                 </template>
                 </v-navigation-drawer>
-                <v-main></v-main>
+
             </v-layout>
-        </v-card>
+
     </nav>
 </template>
