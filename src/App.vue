@@ -1,6 +1,10 @@
 <template>
     <GlobalNavigation />
-    <router-view />  
+    <main>
+      <div class="d-flex flex-row mb-6 justify-center order-2">
+      <router-view />  
+      </div>
+    </main>
 </template>
 
 <script setup>

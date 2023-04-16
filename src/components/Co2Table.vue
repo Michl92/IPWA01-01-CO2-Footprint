@@ -1,28 +1,32 @@
 <template>
-  <v-container class="fill-height"> <!-- ToDo: Table will be overlapped by navigation bar -->
+  <v-sheet  class="ma-3 pa-3">
+  <v-container> <!-- ToDo: Table will be overlapped by navigation bar -->
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-card-title>
-        Co2 Table
-        <v-spacer></v-spacer>
-        <v-text-field
-          v-model="search"
-          append-icon="mdi-magnify"
-          label="Search"
-          single-line
-          hide-details
-        ></v-text-field>
-      </v-card-title>
-      <v-data-table
-          v-model:items-per-page="itemsPerPage"
-          :headers="headers"
-          :items="companies"
-          :search="search"
-          item-value="name"
-          class="elevation-1"
-        >
-      </v-data-table>
-    </v-responsive>
+          <v-card-title>
+            Co2 Table
+            <v-spacer></v-spacer>
+            <v-text-field
+              v-model="search"
+              append-icon="mdi-magnify"
+              label="Search"
+              single-line
+              hide-details
+              sm="1"
+              md="1"
+            ></v-text-field>
+          </v-card-title>
+          <v-data-table
+              v-model:items-per-page="itemsPerPage"
+              :headers="headers"
+              :items="companies"
+              :search="search"
+              item-value="name"
+              class="elevation-1"
+            >
+          </v-data-table>
+        </v-responsive>
   </v-container>
+</v-sheet>
 </template>
 
 <script>
@@ -53,4 +57,3 @@ import axios from 'axios'
 
 
 </script>
-
