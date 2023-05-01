@@ -5,12 +5,22 @@ const routes = [
   {
     path: '',
     name: 'Home',
-    component: () => import('@/views/Home.vue'),
+    component: () => import('@/views/HomeView.vue'),
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('@/views/About.vue'),
+    component: () => import('@/views/AboutView.vue'),
+  },
+  {
+    path: '/impressum',
+    name: 'Impressum',
+    component: () => import('@/views/ImpressumView.vue'),
+  },
+  {
+    path: '/privacy',
+    name: 'Privacy',
+    component: () => import('@/views/PrivacyView.vue'),
   },
 ]
 

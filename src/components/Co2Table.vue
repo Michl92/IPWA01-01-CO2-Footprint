@@ -1,9 +1,10 @@
 <template>
-  <v-sheet  class="ma-3 pa-3">
-  <v-container> <!-- ToDo: Table will be overlapped by navigation bar -->
+        <h1 id="CO2Tabelle">Co2 Tabelle</h1>
+      <p class="CO2TabelleText">Folgende Tabelle beinhaltatet die Top 50 der Firmen mit dem höchsten CO2 Ausstoß</p>
+  <v-sheet class="ma-3 pa-3">
+  <v-container style="">
     <v-responsive class="d-flex align-center text-center fill-height">
           <v-card-title>
-            Co2 Table
             <v-spacer></v-spacer>
             <v-text-field
               v-model="search"
@@ -16,6 +17,7 @@
             ></v-text-field>
           </v-card-title>
           <v-data-table
+              :custom-filter="trimAllSpaces"
               v-model:items-per-page="itemsPerPage"
               :headers="headers"
               :items="companies"
@@ -52,8 +54,31 @@ import axios from 'axios'
       .then((response) => {
         this.companies = response.data
       })
-    }
+    },
+    methods: {
+      //Verhindern von Code injection
+      trimAllSpaces (value, query, item) {
+        let trim = query.replace(/\s/g, "")
+        console.log(query.replace(/[^a-zA-Z0-9]/g, ""))
+        return value != null &&
+          query != null &&
+          typeof value === 'string' &&
+          value.toString().indexOf(trim) !== -1
+          
+      },
+    },
+
   }
 
 
 </script>
+
+<style>
+.v-sheet {
+  margin-top: 10em;
+}
+
+.CO2TabelleText{
+  text-align: center;
+}
+</style>
