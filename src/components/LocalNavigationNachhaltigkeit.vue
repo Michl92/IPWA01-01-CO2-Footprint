@@ -39,24 +39,31 @@ export default{
   data: () => ({
     items: [
       {
-        title: 'Globale Erwärmung',
-        value: 'globalwarming',
+        title: 'Ernährung',
+        value: 'Ernährung',
         props: {
-          href: '#GlobalWarming',
+          href: '#Ernährung',
         },
       },
       {
-        title: 'Klima Spirale',
-        value: 'climaspiral',
+        title: 'Kleidung',
+        value: 'Kleidung',
         props: {
-          href: '#ClimaSpiral',
+          href: '#Kleidung',
         },
       },
       {
-        title: 'CO2 Tabelle',
-        value: 'co2tabel',
+        title: 'Mobilität',
+        value: 'Mobilität',
         props: {
-          href: '#CO2Tabelle',
+          href: '#Mobilität',
+        },
+      },
+      {
+        title: 'CO2-Ausgleich',
+        value: 'CO2Ausgleich',
+        props: {
+          href: '#CO2-Ausgleich',
         },
       },
     ],
@@ -91,7 +98,7 @@ mounted() {
 </script>
 
 <style>
-#GlobalWarming, #ClimaSpiral, #CO2Tabelle {
+#Ernährung, #Kleidung, #Mobilität, #CO2-Ausgleich{
   scroll-margin-top: 100px;
 }
 </style>

@@ -3,7 +3,7 @@
       <router-view /> 
     <footer class="d-flex flex-row mb-6 justify-center order-2">
       <router-link class="Impressum" to="/impressum">Impressum</router-link>
-      <router-link class="Privacy" to="/privacy">Datenschutzerklärung</router-link>
+      <router-link class="Privacy" to="/privacy">Rechtliche Hinweise</router-link>
     </footer>
 </template>
 

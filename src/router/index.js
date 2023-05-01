@@ -4,13 +4,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '',
-    name: 'Home',
-    component: () => import('@/views/HomeView.vue'),
+    name: 'Klimawandel',
+    component: () => import('@/views/KlimawandelView.vue'),
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('@/views/AboutView.vue'),
+    path: '/nachhaltigkeit',
+    name: 'Nachhaltigkeit',
+    component: () => import('@/views/NachhaltigkeitView.vue'),
   },
   {
     path: '/impressum',
@@ -20,7 +20,7 @@ const routes = [
   {
     path: '/privacy',
     name: 'Privacy',
-    component: () => import('@/views/PrivacyView.vue'),
+    component: () => import('@/views/RechtlicheHinweiseView.vue'),
   },
 ]
 

@@ -1,5 +1,5 @@
 <template>    
-  <LocalNavigationHome />
+  <LocalNavigationKlimawandel />
   <main>
     <v-container style="max-width: 750px;">
     <h1 id="GlobalWarming">Globale Erwämung</h1>
@@ -35,7 +35,7 @@
 
 <script setup>
   import Co2Table from '@/components/Co2Table.vue'
-  import LocalNavigationHome from '@/components/LocalNavigationHome.vue';
+  import LocalNavigationKlimawandel from '@/components/LocalNavigationKlimawandel.vue';
 </script>
 
 <style>
