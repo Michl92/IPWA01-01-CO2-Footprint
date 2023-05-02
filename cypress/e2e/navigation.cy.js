@@ -1,0 +1,67 @@
+describe('Test Navgation', () => {
+  it('Test Navgation für desktop size', () => {
+    cy.viewport(1280, 1040)
+    cy.visit('/')
+    //Burgur Menü darf nicht angezeigt werden
+    cy.get('.mdi-menu').should('not.be.visible')
+    //Testen der navigation der Klimawandel Page
+    cy.get('[href="#GlobalWarming"]').click()
+    cy.url().should('contain', 'GlobalWarming')
+    cy.get('[href="#ClimaSpiral"]').click()
+    cy.url().should('contain', 'ClimaSpiral')
+    cy.get('[href="#CO2Tabelle"]').click()
+    cy.url().should('contain', 'CO2Tabelle')
+    //Testen der navigation der Nachhaltigkeit Page
+    cy.get('[href="/nachhaltigkeit"]').click()
+    cy.get('#NachhaltigerLeben').should('have.text', 'Nachhaltiger Leben')
+    cy.get('[href="#Ernährung"]').click()
+    cy.url().should('contain', 'Ern%C3%A4hrung')
+    cy.get('[href="#Kleidung"]').click()
+    cy.url().should('contain', 'Kleidung')
+    cy.get('[href="#Mobilität"]').click()
+    cy.url().should('contain', 'Mobilit%C3%A4t')
+    cy.get('[href="#CO2-Ausgleich"]').click()
+    cy.url().should('contain', 'CO2-Ausgleich')
+    
+  })
+  it('Test Navgation für mobile size', () => {
+    cy.viewport(550, 750)
+    cy.visit('/')
+    //Burger Menü muss angezeigt werden
+    cy.get('.mdi-menu').should('be.visible')
+    //Testen der navigation der Klimawandel Page
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#GlobalWarming"]').click()
+    cy.url().should('contain', 'GlobalWarming')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#ClimaSpiral"]').click()
+    cy.url().should('contain', 'ClimaSpiral')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#CO2Tabelle"]').click()
+    cy.url().should('contain', 'CO2Tabelle')
+    //Testen der navigation der Nachhaltigkeit Page
+    cy.get('[href="/nachhaltigkeit"]').click()
+    cy.get('#NachhaltigerLeben').should('have.text', 'Nachhaltiger Leben')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#Ernährung"]').click()
+    cy.url().should('contain', 'Ern%C3%A4hrung')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#Kleidung"]').click()
+    cy.url().should('contain', 'Kleidung')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#Mobilität"]').click()
+    cy.url().should('contain', 'Mobilit%C3%A4t')
+    cy.get('.mdi-menu').click()
+    cy.get('.v-overlay__content > .v-list > [href="#CO2-Ausgleich"]').click()
+    cy.url().should('contain', 'CO2-Ausgleich')
+  })
+
+  it('Test Impressum und Rechtliche Hinweise Navigation', () => {
+    cy.viewport(1280, 1040)
+    cy.visit('/')
+    cy.get('.Impressum').click()
+    cy.get('h1').should('have.text', 'Impressum')
+    cy.get('.Privacy').click()
+    cy.get('h1').should('have.text', 'Rechtliche Hinweise')
+  })
+})

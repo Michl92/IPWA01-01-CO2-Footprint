@@ -3,7 +3,7 @@
   <main>
     <v-container style="max-width: 750px;">
       <div>
-      <h1 id="NachhaltigerLeben">Nachhalitger Leben</h1>
+      <h1 id="NachhaltigerLeben">Nachhaltiger Leben</h1>
         <p class="nachhaltigerLebenText">Die Industrie hat durch ihren enormen CO2 Ausstoß den größten Einfluss auf die globale Klimaerwärmung.
           Diese kann einerseits durch die Politik beeinflusst werden aber auch durch unser Konsumverhalten. 
           <p style="font-weight: bold;">Es gibt verschiedene Möglichkeiten seinen eignen CO2-Fußabdruck zu veringern.</p>  
