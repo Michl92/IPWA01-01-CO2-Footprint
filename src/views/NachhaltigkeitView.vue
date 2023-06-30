@@ -15,6 +15,7 @@
           <h2>{{ temp.header }}</h2>
           <p>{{ temp.text }}</p>
           <v-img v-bind:src=temp.img></v-img>
+          <p style="font-style: oblique;">{{ temp.author }}</p>
         </div>
       </template>
     </v-container>
@@ -31,26 +32,30 @@
       temps: [
         {
           header: 'Ernährung',
-          img: "greenforce.png",
+          img: "ernährung.png",
           text: "Durch die Umstellung auf eine pflanzliche Ernährung",
+          author: 'Foto von Anna Pelzer auf Unsplash',
           pos: "left"
         },
         {
           header: 'Kleidung',
-          img: "goodOnYou.png",
+          img: "kleidung.png",
           text: "Durch die Auswhal bestimmter CO2 neutralen Kleidungsmarken",
+          author: 'Foto von Charles Etoroma auf Unsplash',
           pos: "right"
         },
         {
           header: 'Mobilität',
           img: "carSharing.png",
           text: "Durch die Nutzung von Car Sharing anbietern oder öffentlichen Verkehrsmitteln",
+          author: 'Foto von why kei auf Unsplash',
           pos: "left"
         },
         {
           header: 'CO2-Ausgleich',
           img: "wildInt.png",
           text: "Durch den Kauf von Regenwald zum Ausgleich seines CO2-Fußabdrucks",
+          author: 'Foto von Lingchor auf Unsplash',
           pos: "right"
         },
       ]

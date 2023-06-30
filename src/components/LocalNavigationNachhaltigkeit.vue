@@ -1,7 +1,7 @@
 <template>
 
 
-  <nav class="navgationMenue ma-3 pa-3 d-none d-lg-block" style="z-index: 100; transform: translateX(0%); position: fixed; height: calc((100% - 0px) - 0px); top: 64px; bottom: 0px; width: 250px;"> 
+  <nav class="navgationMenue d-none d-lg-flex" style="z-index: 100; transform: translateX(0%); position: fixed; height: calc((100% - 0px) - 0px); top: 64px; bottom: 0px; width: 250px;"> 
     <v-card>
       <v-layout>
         <v-navigation-drawer
@@ -17,7 +17,7 @@
   </nav>
 
 
-  <nav class="ma-3 pa-3 d-lg-block" style="z-index: 100; transform: translateX(0%); position: fixed; height: calc((100% - 0px) - 0px); top: 64px; bottom: 0px; width: 100px; right: 0px;">
+  <nav class="d-lg-flex" style="z-index: 100; transform: translateX(0%); position: fixed; height: calc((100% - 0px) - 0px); top: 64px; bottom: 0px; width: 100px; right: 0px;">
       <v-menu transition="scroll-x-transition">
         <template v-slot:activator="{ props }">
           <v-app-bar-nav-icon

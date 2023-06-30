@@ -1,7 +1,7 @@
 <template>    
   <LocalNavigationKlimawandel />
   <main>
-    <v-container style="max-width: 750px;">
+    <v-container>
     <h1 id="GlobalWarming">Globale Erwämung</h1>
     <blockquote src="https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements/">
       "Human activities, principally through emissions of 
@@ -24,7 +24,7 @@
         haben sich die globalen Temperaturen im Laufe der Zeit vor allem durch 
         menschliche Aktivitäten erwärmt.</p>
       <div>
-        <v-img src="climateSpiralOnSide.png"></v-img>
+        <v-img style="max-width: 50%; margin-left: 25%;" src="climateSpiralOnSide.png"></v-img>
       </div>
       <p  style="text-align: center;">https://svs.gsfc.nasa.gov/4975</p>
     </div>
@@ -64,4 +64,19 @@ blockquote {
   text-align: center;
   display: block;
 }
+
+@media (max-width: 1920px) {
+  .v-container{
+    max-width: 760px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .v-container{
+    max-width: 1400px;
+  }
+}
+
+
+
 </style>

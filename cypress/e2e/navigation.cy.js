@@ -2,7 +2,7 @@ describe('Test Navgation', () => {
   it('Test Navgation für desktop size', () => {
     cy.viewport(1280, 1040)
     cy.visit('/')
-    //Burgur Menü darf nicht angezeigt werden
+    //Hamburger Menü darf nicht angezeigt werden
     cy.get('.mdi-menu').should('not.be.visible')
     //Testen der navigation der Klimawandel Page
     cy.get('[href="#GlobalWarming"]').click()
@@ -27,7 +27,7 @@ describe('Test Navgation', () => {
   it('Test Navgation für mobile size', () => {
     cy.viewport(550, 750)
     cy.visit('/')
-    //Burger Menü muss angezeigt werden
+    //Hamburger Menü muss angezeigt werden
     cy.get('.mdi-menu').should('be.visible')
     //Testen der navigation der Klimawandel Page
     cy.get('.mdi-menu').click()

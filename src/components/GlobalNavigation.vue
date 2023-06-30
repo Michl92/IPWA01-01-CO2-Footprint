@@ -9,10 +9,8 @@
                 <v-btn href="/nachhaltigkeit">Nachhaltigkeit</v-btn>
             </template>
             <!-- <v-app-bar-nav-icon></v-app-bar-nav-icon> -->
-
         </v-app-bar>
-    </v-app>
-
+        </v-app>
     </header>
-  </template>
+</template>
   
